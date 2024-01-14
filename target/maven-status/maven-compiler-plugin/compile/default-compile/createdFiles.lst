@@ -1,0 +1,6 @@
+pe\choucair\paginas\menu\MenuPrincipal.class
+pe\choucair\paginas\home\Home.class
+pe\choucair\util\Utilitarios.class
+pe\choucair\helper\WebHelper.class
+pe\choucair\paginas\base\PaginaBase.class
+pe\choucair\paginas\producto\PaginaSeleccionarProductos.class
