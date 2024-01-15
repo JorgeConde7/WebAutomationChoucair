@@ -1,6 +1,6 @@
 Feature: Productos categoria y subcategoria
 
-
+	@AgregarProductosCarrito
   Scenario Outline: Agregar Productos aleatorios al Carrito de Compra
 
 		Given cargo la pagina Exito
@@ -15,4 +15,4 @@ Feature: Productos categoria y subcategoria
     
     Examples:
     |categoria |subcategoria|cantidad|
-    |"Tecnología" | "Computadores y accesorios"|2|
+    |"Tecnología" | "Computadores y accesorios"|5|

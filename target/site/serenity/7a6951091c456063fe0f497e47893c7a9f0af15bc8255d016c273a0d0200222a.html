@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-01-2024 00:05</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-01-2024 00:03</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -174,6 +174,13 @@
 
                         </td>
                         <td valign="top">
+                                <p class="tag">
+                                    <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="ee77928493bc9cc71df85d27c12537268983daee7931f8075f37a00f42b24790.html">Agregar Productos Carrito
+                                    (tag)</a>
+                                </span>
+                                </p>
                         </td>
                     </tr>
                 </table>
@@ -205,7 +212,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given cargo la pagina Exito<br>Then selecciono una categoria &lt;categoria&gt; y subcategoria &lt;subcategoria&gt;<br>And selecciono cantidad de &lt;cantidad&gt; productos aleatoramiente</div>
+            <div class="scenario">Given cargo la pagina Exito<br>When selecciono una categoria &lt;categoria&gt; y subcategoria &lt;subcategoria&gt;<br>And selecciono cantidad de &lt;cantidad&gt; productos aleatoramiente<br>And ingreso al carrito de compras<br>Then el nombre de los productos agregados debera ser igual que en el carrito<br>And el total de los precios de los productos agregados debera ser igual que en el carrito<br>And las cantidades de los productos agregados debera ser igual que en el carrito<br>And el numero de productos agregados debe ser igual que en el carrito</div>
 
         </div>
 
@@ -290,22 +297,22 @@
 
                             <td width="160" class="SUCCESS-text">
                                     <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=0">
-                                        <img src="024c7485a2b062cadbb76747ebf1ae2f19464650cd17acdf6b934d759f57f506.png"
-                                             href="024c7485a2b062cadbb76747ebf1ae2f19464650cd17acdf6b934d759f57f506.png"
+                                        <img src="97cceb79812db26b2f0a37e2a7864839065a72157b850a9673b9a9a971748c73.png"
+                                             href="97cceb79812db26b2f0a37e2a7864839065a72157b850a9673b9a9a971748c73.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                                     <i class="fas fa-arrow-right"></i>
 
-                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=3">
-                                        <img src="ab2b09fc0face8c8f56d7fddda680ec5313eb6fa632769315befcb4d2179aa47.png"
-                                             href="ab2b09fc0face8c8f56d7fddda680ec5313eb6fa632769315befcb4d2179aa47.png"
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=8">
+                                        <img src="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             href="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">46.51s</span></td>
+                        <td width="100"><span class="top-level-step">276.7s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -333,14 +340,14 @@
                             <td width="160" class="SUCCESS-text">
 
                                     <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=1">
-                                        <img src="024c7485a2b062cadbb76747ebf1ae2f19464650cd17acdf6b934d759f57f506.png"
-                                             href="024c7485a2b062cadbb76747ebf1ae2f19464650cd17acdf6b934d759f57f506.png"
+                                        <img src="97cceb79812db26b2f0a37e2a7864839065a72157b850a9673b9a9a971748c73.png"
+                                             href="97cceb79812db26b2f0a37e2a7864839065a72157b850a9673b9a9a971748c73.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">5.89s</span></td>
+                        <td width="100"><span class="nested-group-step">4.68s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -354,7 +361,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Then selecciono una categoria "Tecnología" y subcategoria "Computadores y accesorios"
+                                                When selecciono una categoria "Tecnología" y subcategoria "Computadores y accesorios"
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -364,14 +371,14 @@
                             <td width="160" class="SUCCESS-text">
 
                                     <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=2">
-                                        <img src="e01db17923c5cb66f32dfa05f589b36dcf90eb01bd752fe5f5df513c4a0e7780.png"
-                                             href="e01db17923c5cb66f32dfa05f589b36dcf90eb01bd752fe5f5df513c4a0e7780.png"
+                                        <img src="a6155b4dd603373f5124088c33fa2fd735df77d6d48cb881941996c544f64a75.png"
+                                             href="a6155b4dd603373f5124088c33fa2fd735df77d6d48cb881941996c544f64a75.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3.64s</span></td>
+                        <td width="100"><span class="nested-group-step">6.63s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -395,14 +402,169 @@
                             <td width="160" class="SUCCESS-text">
 
                                     <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=3">
-                                        <img src="ab2b09fc0face8c8f56d7fddda680ec5313eb6fa632769315befcb4d2179aa47.png"
-                                             href="ab2b09fc0face8c8f56d7fddda680ec5313eb6fa632769315befcb4d2179aa47.png"
+                                        <img src="ffc482bbde2a4cb37de5413490399bcb4ec4c00f9e8219fd72afdd68fd5ed955.png"
+                                             href="ffc482bbde2a4cb37de5413490399bcb4ec4c00f9e8219fd72afdd68fd5ed955.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">36.73s</span></td>
+                        <td width="100"><span class="nested-group-step">260.34s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-3"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                And ingreso al carrito de compras
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=4">
+                                        <img src="96cc2edd239d8d301535f58cbb2485c88ee954a8a82760c5840ba0186991c3b2.png"
+                                             href="96cc2edd239d8d301535f58cbb2485c88ee954a8a82760c5840ba0186991c3b2.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">3.41s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-4"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Then el nombre de los productos agregados debera ser igual que en el carrito
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=5">
+                                        <img src="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             href="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.6s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-5"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                And el total de los precios de los productos agregados debera ser igual que en el carrito
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=6">
+                                        <img src="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             href="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-6"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                And las cantidades de los productos agregados debera ser igual que en el carrito
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=7">
+                                        <img src="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             href="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.26s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-7"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                And el numero de productos agregados debe ser igual que en el carrito
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a_screenshots.html#screenshots?screenshot=8">
+                                        <img src="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             href="620596f3f90c2bb48cf117364d7d444e487b4d29c0bf1cef5b94269cb1f8bfa5.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.02s</span></td>
                     </tr>
 
                                 </table>
@@ -411,7 +573,7 @@
                 <tr class="test-SUCCESS">
                         <td colspan="3"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>46.62s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>276.77s</em></span></td>
                 </tr>
 
             </table>

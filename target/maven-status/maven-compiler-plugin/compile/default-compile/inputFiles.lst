@@ -1,6 +1,8 @@
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\paginas\base\PaginaBase.java
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\paginas\home\Home.java
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\util\Utilitarios.java
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\helper\WebHelper.java
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\paginas\producto\PaginaSeleccionarProductos.java
-D:\AUTOMATIZACION\CHOUCAIR\WEB\AutomatizacionWEB\src\main\java\pe\choucair\paginas\menu\MenuPrincipal.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\paginas\base\PaginaBase.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\util\Utilitarios.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\helper\WebHelper.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\paginas\home\Home.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\paginas\producto\PaginaSeleccionarProductos.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\config\driver\DriverConfig.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\paginas\carrito\PaginaCarrito.java
+D:\Archivos Personales\webchoucair\WebAutomationChoucair\src\main\java\pe\choucair\paginas\menu\MenuPrincipal.java

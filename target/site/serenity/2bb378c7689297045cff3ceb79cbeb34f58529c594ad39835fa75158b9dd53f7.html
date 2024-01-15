@@ -221,7 +221,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-01-2024 00:05</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-01-2024 00:03</span>
     <br style="clear:left"/>
 </div>
 
@@ -235,11 +235,23 @@
                         <div>
                             <div clas="table">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-8">
                                     <span>
                                             <h2><i class="fa fa-book"></i> Feature:  Productos Categoria Y Subcategoria</h2>
                                         </span>
                                 </div>
+                                    <div class="col-sm-4">
+                                        <span class="feature-tags">
+                                                <p class="tag">
+                                                    <span class="badge tag-badge" style="background:default;">
+                                                        <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
+                                                                                          style="background:default;"
+                                                                                          href="ee77928493bc9cc71df85d27c12537268983daee7931f8075f37a00f42b24790.html">Agregar Productos Carrito
+                                                        (tag)</a>
+                                                    </span>
+                                                </p>
+                                        </span>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
@@ -327,8 +339,13 @@
                                                     </div>
                                                     <div class="scenario-docs card-body">
                                                             <p>Given cargo la pagina Exito</p>
-                                                            <p>Then selecciono una categoria {categoria} y subcategoria {subcategoria}</p>
+                                                            <p>When selecciono una categoria {categoria} y subcategoria {subcategoria}</p>
                                                             <p>And selecciono cantidad de {cantidad} productos aleatoramiente</p>
+                                                            <p>And ingreso al carrito de compras</p>
+                                                            <p>Then el nombre de los productos agregados debera ser igual que en el carrito</p>
+                                                            <p>And el total de los precios de los productos agregados debera ser igual que en el carrito</p>
+                                                            <p>And las cantidades de los productos agregados debera ser igual que en el carrito</p>
+                                                            <p>And el numero de productos agregados debe ser igual que en el carrito</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
 <blockquote>
@@ -481,11 +498,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>46s</td>
-                                                        <td>46ms</td>
-                                                        <td>46s</td>
-                                                        <td>46s</td>
-                                                        <td>46s</td>
+                                                        <td> 4m 36s</td>
+                                                        <td>276ms</td>
+                                                        <td> 4m 36s</td>
+                                                        <td> 4m 36s</td>
+                                                        <td> 4m 36s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -513,7 +530,7 @@
                                                             <a href="7a6951091c456063fe0f497e47893c7a9f0af15bc8255d016c273a0d0200222a.html">Agregar Productos aleatorios al Carrito de Compra</a>
                                                                (1 example)
                                                     </td>
-                                                    <td>3</td>
+                                                    <td>8</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>

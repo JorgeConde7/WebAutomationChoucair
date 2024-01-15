@@ -1,6 +1,9 @@
 pe\choucair\paginas\menu\MenuPrincipal.class
-pe\choucair\paginas\home\Home.class
+pe\choucair\config\driver\DriverConfig$NavegadorWeb.class
 pe\choucair\util\Utilitarios.class
+pe\choucair\paginas\carrito\PaginaCarrito.class
+pe\choucair\paginas\producto\PaginaSeleccionarProductos.class
+pe\choucair\config\driver\DriverConfig.class
+pe\choucair\paginas\home\Home.class
 pe\choucair\helper\WebHelper.class
 pe\choucair\paginas\base\PaginaBase.class
-pe\choucair\paginas\producto\PaginaSeleccionarProductos.class

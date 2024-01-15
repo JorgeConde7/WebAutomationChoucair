@@ -9,7 +9,7 @@ import pe.choucair.paginas.producto.PaginaSeleccionarProductos;
 
 public class MenuPrincipal  {
 	
-	private By menu= By.xpath("//span[text()='MenÃº']");
+	private By menu= By.xpath("//span[text()='Menú']");
     
     private WebDriver driver;
     public static WebDriverWait wait;
