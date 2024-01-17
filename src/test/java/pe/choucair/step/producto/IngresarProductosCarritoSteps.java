@@ -12,7 +12,6 @@ import net.thucydides.core.annotations.Managed;
 import pe.choucair.helper.WebHelper;
 import pe.choucair.paginas.carrito.PaginaCarrito;
 import pe.choucair.paginas.home.Home;
-import pe.choucair.paginas.menu.MenuPrincipal;
 import pe.choucair.paginas.producto.PaginaSeleccionarProductos;
 
 import java.util.Collections;
@@ -26,16 +25,14 @@ public class IngresarProductosCarritoSteps {
 
 	@Managed
 	WebDriver driver;
-	MenuPrincipal menuPrincipal;
+	Home home;
 	PaginaSeleccionarProductos paginaSeleccionarProductos;
 	PaginaCarrito paginaCarrito;
-	Home home;
-	
+
     @Before
     public void configuracionInicial() {
     	//driver= DriverConfig.getInstancia(NavegadorWeb.CHROME);
     	home= new Home(driver);
-    	menuPrincipal= new MenuPrincipal(driver);
     	paginaSeleccionarProductos = new PaginaSeleccionarProductos(driver);
     	paginaCarrito= new PaginaCarrito(driver);
     	
@@ -53,12 +50,13 @@ public class IngresarProductosCarritoSteps {
     @Given("cargo la pagina Exito")
     public void cargoLaPaginaExito() {
         home.cargarPaginaExito();
+      //home.maximizarVentana(); 
       
     }
 
 	@When("selecciono una categoria {string} y subcategoria {string}")
 	public void selecciono_una_categoria_y_subcategoria(String categoria, String subategoria) {
-		menuPrincipal.cargarPaginaSelecionarProductos(categoria, subategoria);
+		home.cargarPaginaSelecionarProductos(categoria, subategoria);
 		WebHelper.pausar();
 	}
 	
@@ -88,13 +86,16 @@ public class IngresarProductosCarritoSteps {
    
     }
 
-    @Then("el total de los precios de los productos agregados debera ser igual que en el carrito")
+  
+	@Then("el total de los precios de los productos agregados debera ser igual que en el carrito")
     public void el_total_de_los_precios_de_los_productos_agregados_debera_ser_igual_que_en_el_carrito() {
     	
-    	//List<Double> totalesEnSeleccion = paginaSeleccionarProductos.obtenerTotalesPreciosProductosSeleccionados();    	
-       // List<Double> totalesEnCarrito = paginaCarrito.obtenerTotalesPreciosProductosCarrito();
 
-       // Assert.assertEquals(totalesEnSeleccion, totalesEnCarrito);
+       double sumaPrecioProducto = paginaCarrito.sumarPreciosProductosCarrito();
+       double totalPrecioCarrito= paginaCarrito.obtenerPrecioTotalCarrito();
+       
+
+       Assert.assertEquals(sumaPrecioProducto, totalPrecioCarrito, 0.01); 
     }
 
     @Then("las cantidades de los productos agregados debera ser igual que en el carrito")
